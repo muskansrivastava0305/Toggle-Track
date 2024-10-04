@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className=''>
+    <div className=' w-full'>
       {/* top-section */}
       <div className=' bg-[#ff80df]'>
         <div className=' flex gap-7 p-2 font-medium w-full justify-end pr-9 text-sm'>
@@ -19,23 +19,23 @@ function App() {
           <p>About us</p>
         </div>
       </div>
-
-      <div className=' w-full bg-[#2e133a]'>
+      {/* bg-[#2e133a] */}
+      <div className=' w-full bg-[#2e133a] '>
         {/* nav-bar */}
         <div className=' flex gap-9'>
           <div className=' flex m-4 gap-2'>
-            <h1 className=' text-4xl font-extrabold font-serif text-[#ff80df]' >toggl </h1>
+            <h1 className=' text-5xl font-extrabold font-serif text-[#ff80df]' >toggl </h1>
             <h2 className=' text-4xl text-[#ff80df]'>track</h2>
           </div>
           <div className='flex flex-row w-full' >
-            <div className='flex gap-7 mt-7 font-semibold text-lg'>
+            <div className='flex gap-7 mt-7 font-semibold text-lg w-full'>
               <p className=' text-yellow-50'>Use cases</p>
               <p className=' text-yellow-50'>Features</p>
               <p className=' text-yellow-50'>Solutions  </p>
               <p className=' text-yellow-50'>Pricing</p>
               <p className=' text-yellow-50'>Resources </p>
             </div>
-            <div className='flex gap-7 mt-7 font-semibold text-lg w-3/5 justify-end'>
+            <div className='flex gap-7 m-4 font-semibold text-lg w-3/5 justify-end items-center '>
               <h1 className=' text-yellow-50'>Book a demo</h1>
               <p className=' text-yellow-50'>|</p>
               <p className=' text-yellow-50'>Log in</p>
@@ -44,10 +44,10 @@ function App() {
           </div>
         </div>
 
-        <div className=' flex mr-36 ml-36 mt-8 gap-5 '>
+        <div className=' flex mr- ml-36 mt-8 gap-5 '>
           <div className=' w-full flex flex-col gap-6'>
           <div >
-            <h1 className=' text-yellow-50 text-7xl'>Time tracking software to drive every decision</h1>
+            <h1 className=' text-yellow-50 text-6xl'>Time tracking software to drive every decision</h1>
           </div>
           <div>
             <p className=' text-slate-300 text-2xl'>Give your team a time tracker they’ll love, make confident data-backed decisions and focus on the work that matters most.</p>
